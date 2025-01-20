@@ -502,10 +502,10 @@
 @media screen and (max-width: 800px) and (orientation: landscape) {
     body {
         background-image: linear-gradient(to left, #1a1a1ac8, #1b1b1b);
-        margin: 0px;
+        margin: auto;
         display: flex;
         flex-direction: column;
-
+        width: 60%;
     }
 
     header {
@@ -519,8 +519,8 @@
 
     header>img {
         margin: 8px;
-        width: 40vw;
-        height: 40vh;
+        width: 40vh;
+        height: 40vw;
 
     }
 
@@ -529,7 +529,7 @@
         color: transparent;
         text-align: center;
         align-self: center;
-        font-size: 5vh;
+        font-size: 5vw;
         background-color: rgba(255, 255, 255, 0);
         background-image: linear-gradient(45deg, white, #d9c296, #ceaf77);
         background-clip: text;
@@ -541,11 +541,11 @@
 
     @keyframes increase_size {
         0% {
-            font-size: 2.5vh;
+            font-size: 2.5vw;
         }
 
         100% {
-            font-size: 3.5vh;
+            font-size: 3.5vw;
         }
 
     }
@@ -553,19 +553,19 @@
     @keyframes move_product {
         0% {
             transform: translateX(-10px);
-            font-size: 7vh;
+            font-size: 7vw;
         }
 
         100% {
             transform: translateX(50px);
-            font-size: 7vh;
+            font-size: 7vw;
         }
 
     }
 
     .product-name {
         font-weight: bold;
-        font-size: 4vh;
+        font-size: 4vw;
         animation-name: move_product;
         animation-duration: 1000ms;
         animation-timing-function: ease-in;
@@ -585,24 +585,24 @@
         top: 50%;
         left: 0px;
         padding: 8px;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         border-radius: 8px;
         background-color: #1a1a1a !important;
         color: white;
-        height: calc(8px + 8px + 2.5vh);
+        height: calc(8px + 8px + 2.5vw);
         width: 25%;
         text-align: center;
     }
 
     .header-caption img {
-        width: 30vw;
-        height: 33vh;
+        width: 30vh;
+        height: 33vw;
         margin: 8px
     }
 
     .header-caption-label {
         color: white;
-        font-size: 4vh;
+        font-size: 4vw;
         text-align: center;
         padding: 8px
     }
@@ -612,7 +612,7 @@
         -webkit-background-clip: text;
         font-weight: bolder;
         color: transparent;
-        font-size: 6vh;
+        font-size: 6vw;
     }
 
     .header-caption {
@@ -633,7 +633,7 @@
         margin-bottom: 32px;
         margin-left: 8px;
         margin-right: 8px;
-        font-size: 3vh;
+        font-size: 3vw;
         font-family: sans-serif;
         margin-bottom: 16px;
     }
@@ -671,8 +671,8 @@
 
     .decorative-box {
         padding: 16px;
-        width: 40vw;
-        height: 30vw;
+        width: 40vh;
+        height: 30vh;
         justify-self: end;
         align-self: self-start;
         background-color: white;
@@ -688,7 +688,7 @@
 
     .top-save {
         margin: 32px !important;
-        font-size: 2.5vh !important;
+        font-size: 2.5vw !important;
         font-weight: normal !important;
         color: #4f301c !important;
 
@@ -696,8 +696,8 @@
     }
 
     .redefine-elegance img {
-        width: 40vw;
-        height: 30vh;
+        width: 40vh;
+        height: 30vw;
         margin: 8px;
         align-self: center;
     }
@@ -718,7 +718,7 @@
 
     .label-one {
         text-align: center;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         padding: 8px;
         margin: 8px;
         background-color: rgba(230, 230, 230, 0.6);
@@ -728,7 +728,7 @@
 
     .label-two {
         text-align: center;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         padding: 8px;
         margin: 8px;
         background-color: rgba(230, 230, 230, 0.6);
@@ -752,7 +752,7 @@
 
     .section-2-text {
         color: rgb(230, 230, 230) !important;
-        font-size: 2.5vh !important;
+        font-size: 2.5vw !important;
         margin: 8px;
         text-align: center;
     }
@@ -764,7 +764,7 @@
         background-color: #4f301c;
         color: white;
         outline-width: 0;
-        font-size: 3.5vh;
+        font-size: 3.5vw;
         border-width: 0;
         width: 50%;
     }
@@ -791,17 +791,17 @@
         color: #1a1a1a;
         text-align: center;
         font-weight: bold;
-        font-size: 3.5vh;
+        font-size: 3.5vw;
         margin: 8px;
         font-variant-caps: small-caps;
     }
 
     .section-3-text-last {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         color: #2a2a2a;
         text-align: center;
         background-color: rgba(255, 255, 255, 0.4);
-        margin-top: 30vh;
+        margin-top: 30vw;
         font-weight: bold;
         align-self: self-end;
         margin-left: 0;
@@ -833,7 +833,7 @@
         padding: 16px !important;
         color: white !important;
         font-weight: bold !important;
-        font-size: 3vh !important;
+        font-size: 3vw !important;
         margin: auto !important;
         margin-top: 8px !important;
         margin-bottom: 8px !important;
@@ -850,20 +850,20 @@
     }
 
     .caption {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         font-weight: normal;
         margin: 8px;
         text-align: start;
     }
 
     .section-4-item img {
-        width: 90vw !important;
-        height: 60vh !important;
+        width: 90vh !important;
+        height: 60vw !important;
         margin: auto !important;
     }
 
     .section-4-item-text {
-        font-size: 3vh;
+        font-size: 3vw;
         margin: 8px;
         text-align: center;
         background-color: white;
@@ -882,7 +882,7 @@
     }
 
     .video-section-header {
-        font-size: 4vh !important;
+        font-size: 4vw !important;
         font-weight: bold !important;
         text-align: center !important;
 
@@ -890,7 +890,7 @@
     }
 
     .video-section-text {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         color: white;
         font-weight: 400;
         margin: 8px;
@@ -899,8 +899,8 @@
     video {
         border: 1px solid #D4B887;
         border-width: 4px;
-        width: 90vw;
-        height: 95vw;
+        width: 90vh;
+        height: 95vh;
         margin: auto;
 
     }
@@ -919,12 +919,12 @@
     }
 
     .label {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         font-weight: 400;
     }
 
     .label-description {
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         font-weight: bold;
         color: #1a1a1a !important;
     }
@@ -935,7 +935,7 @@
     }
 
     .form-header {
-        font-weight: 4vh;
+        font-weight: 4vw;
         color: white;
         margin: 8px;
         margin-bottom: 16px;
@@ -952,7 +952,7 @@
         margin: 8px;
         margin-top: 0;
         margin-bottom: 0;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         font-weight: 400;
         color: rgba(230, 230, 230, 1);
     }
@@ -960,9 +960,9 @@
     input[type="text"],
     input[type="number"] {
         color: #1a1a1ac8;
-        font-size: 2.5vh;
+        font-size: 2.5vw;
         margin: 8px;
-        width: 80vw;
+        width: 60vw;
         padding: 8px;
         font-weight: 700;
     }
@@ -970,7 +970,7 @@
     .terms {
         font-weight: bold;
         color: white;
-        font-size: 3vh;
+        font-size: 3vw;
     }
 
     input[type="checkbox"] {
@@ -984,15 +984,15 @@
     }
 
     .testimonial-header {
-        font-size: 3vh;
+        font-size: 3vw;
         color: white;
         margin: 8px;
         text-align: center;
     }
 
     .testimonial img {
-        width: 80vw;
-        height: 105vw;
+        width: 80vh;
+        height: 105vh;
         margin: auto;
         margin-top: 8px;
         margin-bottom: 8px;
