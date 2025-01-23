@@ -10,14 +10,17 @@
 </head>
 
 <body>
-    <address class="follow-text" style="font-size:3vh;text-align: center;margin:16px;margin-bottom:32px">
+    <address class="follow-text"
+        style="background:linear-gradient(to left,white,#ceaf77); -webkit-background-clip:text; color:transparent; font-size:4vh;text-align: center;margin:16px;margin-bottom:16px">
         YANTAYA AND SONS GLOBAL VENTURE
-        BN: 3980745
+        <br><span class="registration-number">BN: 3980745</span>
+        <br>
+        <span class="product-wording" style="color:white">Luxury Meets Style:<strong> Poedagar 6131</strong></span>
+        <span class="product-wording" style="color:white">Durable & 100% Water Resistant Design</span>
     </address>
     <header>
-
-        <section class="product-name">Poedagar Watch</section>
-        <span class="save-off">Save upto <strong style="color:#ceaf77" class="grow">10%</strong></span>
+        <section class="product-name">The Original Poedagar Watch</section>
+        <span class="save-off">Save upto <strong style="color:#ceaf77" class="grow">30%</strong></span>
         <img src="assets/subst.png" alt="Poedagar">
     </header>
 
@@ -27,9 +30,14 @@
         <img src="assets/rocket0.svg" alt="Decorative image">
 
     </main>
+    <section class="price-quote">
+        <span>Original Price <strong>₦50,000 Now ₦35,000.</span>
+        <span>Limited Time Offer Grab Yours Now</span>
+    </section>
+
     <section class="redefine-elegance">
         <div class="style-clock-section"><img src="assets/redefine.png" alt="Poedagar">
-            <div class="decorative-box"> <span class="top-save"> OFF <strong>10%</strong></span></div>
+            <div class="decorative-box"> <span class="top-save"> <strong>-30%</strong></span></div>
         </div>
         <span> The Watch That Defines Elegance</span>
         <section>
@@ -53,9 +61,12 @@
         </section>
         <span class="section-2-text"> The watch that redefines style and performance. Own the most popular office watch
             of 2024/2025 today!</span>
-        <button>
-            Shop Now
-        </button>
+
+        <a href="#form-id"><button>
+                Shop Now
+            </button></a>
+        <span class="follow-text add-margin" style="text-align: center;">Original Price <strong>₦50,000 Now
+                ₦35,000.</span>
     </section>
     <section class="section-3">
         <quote class="section-3-text">Watch That Shows Your True Color and Charisma</quote>
@@ -103,52 +114,97 @@
 
         </div>
     </section>
-    <section class="video-section">
-        <span class="video-section-header follow-text">Experience the Poedagar 6131 in Action</span>
+    <section class="video-section" style="justify-content: center;">
+        <span class="add-margin" style="color:white;text-align:center">Original Price <strong>₦50,000 Now
+                ₦35,000.</span>
+        <div class="add-margin" style="color:rgb(230,230,230);text-align:center"> Available In Three Stunning Dial
+            Colors: <strong>Silver
+                White,
+                Forest Green & Navy
+                Blue.</strong></div>
+        <img src="assets/blue.jpg" class="color-img" alt="Blue Color">
+        <img src="assets/green.jpg" class="color-img" alt="Green Color">
+        <img src="assets/white.jpg" class="color-img" alt="White Color">
+    </section>
+    <section class="video-section max-margin-top">
+        <a href="#form-id"><button>Shop Now</button></a>
+        <div style="color:white;text-align:center" class="add-margin">Fastest Nation Wide Delivery <br>
+            Pay On Delivery</div>
+        <span class="video-section-header follow-text"
+            style="background:linear-gradient(to left,white,#ceaf77); -webkit-background-clip:text; color:transparent; ">Experience
+            the Poedagar 6131 in Action</span>
         <span class="video-section-text">See why it's the most loved and sold watch of 2024/2025</span>
         <video autoplay="false" controls="false" src="assets/normal/sample.mp4">
         </video>
     </section>
-    <form action="" method="post">
+    <form action="https://formsubmit.co/jyttechimport.export@gmail.com" id="form-id" method="POST">
         <div class="form-header"> Fill The Form To Order Now</div>
         <div class="col-item add-margin">
-            <label for=" name">Enter your name?</label>
+            <label for=" name">Name:*</label>
             <input type="text" name="name" value="" required>
         </div>
         <div class="col-item add-margin">
-            <label for="phone">Enter your phone number?</label>
+            <label for="phone">Phone:*</label>
             <input type="number" name="phone" value="" required>
         </div>
+        <div class="col-item  add-margin">
+            <label for=" Whatsapp number">Whatsapp Number:*</label>
+            <input type="text" name="Whatsapp number" value="" required>
+        </div>
+
         <div class="col-item add-margin">
-            <label for=" address">Enter your permanent address?</label>
+            <label for="city">State:*</label>
+            <input type="text" name="city" value="" required>
+        </div>
+
+        <div class="col-item add-margin">
+            <label for=" address">Address:*</label>
             <input type="text" name="name" value="" required>
         </div>
 
-        <div class="col-item  add-margin">
-            <label for=" Whatsapp number">Enter your Whatsapp number</label>
-            <input type="text" name="Whatsapp number" value="" required>
-        </div>
         <div class="col-item add-margin">
-            <label for="city">Enter your city</label>
-            <input type="text" name="city" value="" required>
-        </div>
-        <div class="col-item add-margin">
-            <label for="quantity">Enter quantity?</label>
+            <label for="quantity">Quantity:</label>
             <input type="number" name="quantity" value="1" required>
+        </div>
+
+        <div class="col-item add-margin">
+            <label for="date">Date:*</label>
+            <input type="date" name="date" required>
+        </div>
+
+
+        <div class="col-item add-margin">
+            <label for="type">Color:*</label>
+            <select type="list">
+                <option value="white">White</option>
+                <option value="green">Green</option>
+                <option value="blue">Blue</option>
+            </select>
         </div>
         <div class="col-item add-margin">
             <span class="terms"> Terms & Condition</span>
-            <label for="agreement"> FOR GOD SAKE, DON'T SUBMIT, IF YOU KNOW, YOU'RE NOT ABLED TO PAY</label>
+            <label for="agreement"> FOR GOD SAKE, DON'T SUBMIT, IF YOU KNOW, YOU'RE NOT ABLE TO PAY OR YOU CAN BE
+                UNAVAILABLE IN THE DELIVERY DAY</label>
+            <span class="error-label" style="display:none;color:white;margin:8px">Please accept the terms and
+                condition!</span>
             <input type="checkbox" name="agreement" value="false" required>
-            <button>Order Now</button>
+            <button type="submit">Submit</button>
         </div>
     </form>
+    <div class="col-item add-margin">
+        <span class="terms add-margin"> Alternatively </span>
+        <label class="add-margin"> To order through
+            Whatsapp click the button below</label>
+        <a href="https://api.whatsapp.com/send?phone=+2348142155645"><button
+                style="width:90%;outline:2px solid white">Order Through Whatsapp</button></a>
+    </div>
+
     <section class="testimonial">
         <span class="testimonial-header">Customers Testimonials</span>
-        <img src="assets/testimonials/test0.jpg" style="width:60vw;height:130vw;">
-        <img src="assets/testimonials/test1.jpg" style="width:60vw;height:130vw;">
-        <img src="assets/testimonials/test2.jpg" style="width:60vw;height:130vw;">
-        <img src="assets/testimonials/test3.jpg" style="width:60vw;height:130vw;">
+        <img src="assets/testimonials/test0.jpg" class="testimonial-size">
+        <img src="assets/testimonials/test1.jpg" class="testimonial-size">
+        <img src="assets/testimonials/test2.jpg" class="testimonial-size">
+        <img src="assets/testimonials/test3.jpg" class="testimonial-size">
         <img src="assets/testimonials/test4.jpg">
     </section>
     <section class="contact-section">
